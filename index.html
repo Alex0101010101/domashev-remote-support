@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Remote computer support in Los Angeles. Clear service descriptions and upfront estimates.">
+  <title>Domashev Remote Computer Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #15324b;
+      --blue: #2878d0;
+      --bg: #f4f7fa;
+      --text: #243447;
+      --muted: #586b7c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    header, footer { background: white; }
+    .wrap { width: min(1080px, 92%); margin: auto; }
+    header .wrap {
+      min-height: 72px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .brand { color: var(--navy); font-weight: 750; text-decoration: none; }
+    nav { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    nav a { text-decoration: none; }
+    .button {
+      display: inline-block;
+      padding: 11px 18px;
+      border-radius: 7px;
+      background: var(--blue);
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .button.secondary {
+      background: white;
+      color: var(--navy);
+      border: 1px solid #cbd6e0;
+    }
+    .hero { background: var(--bg); padding: 76px 0; }
+    .hero h1 {
+      max-width: 740px;
+      margin: 0 0 16px;
+      color: var(--navy);
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      line-height: 1.1;
+    }
+    .hero p { max-width: 680px; color: var(--muted); font-size: 1.15rem; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+    section { padding: 54px 0; }
+    h2 { color: var(--navy); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    .card { padding: 22px; border: 1px solid #e0e7ee; border-radius: 10px; background: white; }
+    .price { color: var(--navy); font-weight: 750; font-size: 1.2rem; }
+    .note { color: var(--muted); font-size: .95rem; }
+    .security { background: var(--bg); }
+    footer { border-top: 1px solid #e0e7ee; padding: 26px 0; color: var(--muted); }
+    @media (max-width: 650px) {
+      header .wrap { align-items: flex-start; flex-direction: column; padding: 16px 0; }
+      nav { gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="#">Domashev Remote Computer Support</a>
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How it works</a>
+        <a class="button" href="mailto:YOUR_EMAIL@example.com?subject=Remote%20support%20request">Request support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>Computer help, remotely and clearly.</h1>
+        <p>
+          Get help with common computer, software, setup, and troubleshooting
+          issues. Tell us what’s happening, and we’ll confirm whether remote
+          support is a good fit and provide an estimate before work begins.
+        </p>
+        <div class="actions">
+          <a class="button" href="mailto:YOUR_EMAIL@example.com?subject=Remote%20support%20request">Request support</a>
+          <a class="button secondary" href="#services">View services and prices</a>
+        </div>
+        <p class="note">Based in Los Angeles, USA. Remote appointments by arrangement.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <h2>Services and pricing</h2>
+        <p>These are draft prices. Confirm the scope and estimate before work begins.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Initial consultation</h3>
+            <p>Discuss the issue and possible next steps, up to 20 minutes.</p>
+            <p class="price">$25</p>
+          </article>
+          <article class="card">
+            <h3>Standard troubleshooting</h3>
+            <p>Remote assistance, up to 45 minutes.</p>
+            <p class="price">$60</p>
+          </article>
+          <article class="card">
+            <h3>Extended support</h3>
+            <p>Remote assistance, up to 90 minutes.</p>
+            <p class="price">$110</p>
+          </article>
+          <article class="card">
+            <h3>Setup and other services</h3>
+            <p>Software/device setup from $75. Backup or data-transfer assistance from $90.</p>
+            <p class="note">Additional time: $25 per 15 minutes, with your approval.</p>
+          </article>
+        </div>
+        <p class="note">
+          Software licenses, hardware, and third-party charges are extra.
+          Results are not guaranteed; some problems require in-person service.
+        </p>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="security">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <div class="cards">
+          <article class="card"><h3>1. Describe the issue</h3><p>Email a brief description. Don’t include passwords or sensitive information.</p></article>
+          <article class="card"><h3>2. Get an estimate</h3><p>We’ll review whether remote support is suitable and confirm the expected price.</p></article>
+          <article class="card"><h3>3. Book and approve</h3><p>Choose a time. Remote access and paid work begin only with your approval.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Your device. Your permission.</h2>
+        <p>
+          We explain the session before connecting. You remain in control of
+          remote access. Never send passwords, payment-card details, or wallet
+          recovery phrases by email.
+        </p>
+        <a class="button" href="mailto:YOUR_EMAIL@example.com?subject=Remote%20support%20request">Contact us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Domashev Remote Computer Support</strong><br>
+      Los Angeles, California, USA<br>
+      Email: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+      <p class="note">Replace the example email address before publishing.</p>
+    </div>
+  </footer>
+</body>
+</html>
